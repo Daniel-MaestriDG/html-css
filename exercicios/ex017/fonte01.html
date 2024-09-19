@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+/* Medidas Absolotas
+cm, mm, in (polegada), px, pt, pc
+
+Medidas Relativas
+em, ex, rem, vw, vh, %
+
+16px = tamanho da fonte padrão do navegador
+16px geralmente = 1em
+
+Recomendação (Sempre use px ou em)
+
+*/
+font-size: 1em;
+
+/*Pesos(lighter, normal, bold, bolder)
+caso a fonte não aceite nenhuma temos tanbém 
+numérica (100-900)
+weigth (peso), width (largura), height (altura) */
+  }
+
+  h1{
+/*em vez de utilizarmos todos esses codigos 
+
+ font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+
+podemos usar (shorthad font) 
+que juta todos esses codigos na seguinte ordem
+-font-style -> font-weight -> font-size -> font-family*/
+font:italic bolder 3em Arial, Helvetica, sans-serif;
+  }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, obcaecati. Sed molestiae modi nobis obcaecati et officia ipsum! Minus voluptas quasi ducimus quae libero repellat facere similique autem nemo sit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptate quidem ipsa nisi repellat ut culpa porro expedita, optio, quos mollitia itaque veritatis temporibus fugiat eum beatae voluptatem enim corporis!</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae voluptas iste ad aspernatur dolor cumque soluta error provident blanditiis perferendis, eum et. Minus illo ipsa recusandae. Cum tempore quae adipisci.</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque blanditiis laborum illo commodi animi culpa omnis fuga sed debitis quibusdam nemo quidem, veniam qui voluptas, at nihil quasi vitae possimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum iusto dolores corrupti assumenda nesciunt sed, vero inventore accusantium dolorum, ab vitae laboriosam suscipit at reiciendis, eligendi provident doloremque magni dolore?</p>
+</body>
+</html>
